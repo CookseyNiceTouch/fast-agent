@@ -19,3 +19,4 @@
 {"level":"WARNING","timestamp":"2025-04-01T23:12:36.619007","namespace":"mcp_agent.workflows.router.router_agent","message":"No routing response received from LLM"}
 {"level":"WARNING","timestamp":"2025-04-01T23:12:36.619025","namespace":"mcp_agent.workflows.router.router_agent","message":"Could not determine appropriate agent for this request"}
 {"level":"ERROR","timestamp":"2025-04-01T23:12:36.636555","namespace":"mcp_agent.core.base_agent.orchestrator","message":"No agent found matching 'invalid_agent'. Available agents: ['agent1', 'agent2']"}
+{"level":"ERROR","timestamp":"2025-04-09T20:06:54.717992","namespace":"mcp_agent.mcp.mcp_aggregator.default","message":"Server 'default' not found"}
