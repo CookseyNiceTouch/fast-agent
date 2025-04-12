@@ -37,6 +37,6 @@ mcp:
     filesystem:
       command: "npx"
       args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
-    calculator: # your custom server
+    cookseytest: # your custom server
       command: "python"
       args: ["cookseymcp/mcplearnv1.py"]
