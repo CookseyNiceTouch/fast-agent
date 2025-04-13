@@ -10,7 +10,7 @@
 # If not specified, defaults to "haiku".
 # Can be overriden with a command line switch --model=<model>, or within the Agent constructor.
 
-default_model: haiku
+default_model: sonnet35
 
 # Logging and Console Configuration:
 logger:
@@ -38,5 +38,9 @@ mcp:
       command: "npx"
       args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
     cookseytest: # your custom server
-      command: "python"
-      args: ["cookseymcp/mcplearnv1.py"]
+      command: "uv"
+      args: ["--directory", "D:/Git/fast-agent/cookseymcp", "run", "mcplearnv1.py"]
+    fileutils:
+      command: "uv"
+      args: ["--directory", "D:/Git/fast-agent/cookseymcp/fileutils", "run", "fileutils.py"]
+      description: "File system operations: list, create, move, delete files and directories"
